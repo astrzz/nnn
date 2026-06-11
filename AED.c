@@ -17,7 +17,7 @@ int main() {
     int i, j;
 
     
-    cor(10); // verde
+    cor(10);
 
     printf("ooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooo\n");
     printf("o                                                             o\n");
@@ -55,7 +55,7 @@ int main() {
 
         for (i = 0; i < 10; i++) {
             if (tentativa[i] == palavra[i]) {
-                cor(10); // verde
+                cor(10);
                 printf("[%c] ", tentativa[i]);
                 cor(7);
             } else {
@@ -70,11 +70,11 @@ int main() {
                 }
 
                 if (existe == 1) {
-                    cor(6); // laranja/amarelo
+                    cor(6);
                     printf("[%c] ", tentativa[i]);
                     cor(7);
                 } else {
-                    cor(8); // cinza
+                    cor(8);
                     printf("[%c] ", tentativa[i]);
                     cor(7);
                 }
@@ -100,5 +100,4 @@ int main() {
         cor(7);
     }
 
-    return 0;
 }
